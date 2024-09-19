@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/blog?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: username
+    password: password
+
+  jwt:
+    secret: dbdjtbqordpsemrhkwpddddddddddddddddddddddddddddddddddddddd
